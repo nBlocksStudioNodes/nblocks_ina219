@@ -32,7 +32,7 @@ public:
      *  
      *  \param [in] pinSDA Pin connected to the sensor's SDA line
      *  \param [in] pinSCL Pin connected to the sensor's SCL line
-     *  \param [in] pinSCL Pin connected to the sensor's SCL line
+     *  \param [in] address I2C Address
      *  \param [in] shuntResistor Resistance of the shunt resistor, in ohms
      *  
      */
