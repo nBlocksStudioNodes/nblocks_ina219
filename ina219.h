@@ -47,7 +47,7 @@ public:
      *  \param [in] inputNumber Number identifying the input. This node has only one.
      *  \param [in] value The value sent to this node. In this node, any value triggers.
      */
-    void triggerInput(uint32_t inputNumber, uint32_t value);
+    void triggerInput(nBlocks_Message message);
 	
     /**
      *  \brief Called in the end of every frame.

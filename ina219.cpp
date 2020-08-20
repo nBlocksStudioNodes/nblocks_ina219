@@ -47,7 +47,7 @@ nBlock_INA219::nBlock_INA219(PinName pinSDA, PinName pinSCL, int address, float 
 	
 }
 
-void nBlock_INA219::triggerInput(uint32_t inputNumber, uint32_t value) {
+void nBlock_INA219::triggerInput(nBlocks_Message message) {
 	// inputNumber is ignored as we only have one input
 	// value is ignored as any value is considered a trigger for reading
 
